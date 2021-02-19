@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Test QUiz</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+<div class="container">
+  <div class="heading">
+    <h1 class="heading__text">Test Quiz</h1>
+  </div>
+
+  <!-- Quiz section -->
+  <div class="quiz">
+    
+
+    <form class="quiz-form">
+	<div id="quiz-form-one">
+      <div class="quiz-form__quiz">
+        <p class="quiz-form__question">
+          1. What happens to plastic waste?
+        </p>
+        <label class="quiz-form__ans" for="q11">
+          <input type="radio" name="q1" id="q11" value="A"  required="required"/>
+          <span class="design"></span>
+          <span class="text">It is a biodegradable material so it eventually
+            disintegrates</span>
+        </label>
+        <label class="quiz-form__ans" for="q12">
+          <input type="radio" name="q1" id="q12" value="B"   required="required"/>
+          <span class="design"></span>
+          <span class="text">It never fully goes away, it just breaks into little
+            pieces</span>
+        </label>
+        <label class="quiz-form__ans" for="q13">
+          <input type="radio" name="q1" id="q13" value="C"   required="required"/>
+          <span class="design"></span>
+          <span class="text">There is no such thing as plastic waste, all plastic is
+            recycled</span>
+        </label>
+        <label class="quiz-form__ans" for="q14">
+          <input type="radio" name="q1" id="q14" value="D"   required="required"/>
+          <span class="design"></span>
+          <span class="text">It is dumped in the ocean for fish to eat</span>
+        </label>
+		
+<a class="submit"  name="next">Go Next ></a>
+      </div>
+
+      <div class="quiz-form__quiz">
+        <p class="quiz-form__question">
+          2. Why is plastic dangerous for marine life?
+        </p>
+        <label class="quiz-form__ans" for="q21">
+          <input type="radio" name="q2" id="q21" value="A"  />
+          <span class="design"></span>
+          <span class="text">It's not dangerous because they use plastic waste for
+            habitats</span>
+        </label>
+        <label class="quiz-form__ans" for="q22">
+          <input type="radio" name="q2" id="q22" value="B" />
+          <span class="design"></span>
+          <span class="text">They can get tangled in it which hinders their ability to
+            swim</span>
+        </label>
+        <label class="quiz-form__ans" for="q23">
+          <input type="radio" name="q2" id="q23" value="C" />
+          <span class="design"></span>
+          <span class="text">They mistake it for food and cannot digest it</span>
+        </label>
+        <label class="quiz-form__ans" for="q24">
+          <input type="radio" name="q2" id="q24" value="D" />
+          <span class="design"></span>
+          <span class="text">Both a and b</span>
+        </label>
+<a class="submit"  name="next">Go Next ></a>
+<a class="submit"  name="prev">< Go Previous</a>
+      </div>
+
+      <div class="quiz-form__quiz">
+        <p class="quiz-form__question">
+          3. Where does the majority of plastic waste end up?
+        </p>
+        <label class="quiz-form__ans" for="q31">
+          <input type="radio" name="q3" id="q31" value="A"  />
+          <span class="design"></span>
+          <span class="text">Recycled</span>
+        </label>
+        <label class="quiz-form__ans" for="q32">
+          <input type="radio" name="q3" id="q32" value="B" />
+          <span class="design"></span>
+          <span class="text">Oceans</span>
+        </label>
+        <label class="quiz-form__ans" for="q33">
+          <input type="radio" name="q3" id="q33" value="C" />
+          <span class="design"></span>
+          <span class="text">Burned for energy</span>
+        </label>
+        <label class="quiz-form__ans" for="q34">
+          <input type="radio" name="q3" id="q34" value="D" />
+          <span class="design"></span>
+          <span class="text">Landfills</span>
+        </label>
+		
+<a class="submit"  name="next">Go Next ></a>
+<a class="submit"  name="prev">< Go Previous</a>
+      </div>
+
+      <div class="quiz-form__quiz">
+        <p class="quiz-form__question">
+          4. What percent of its plastic does the US recycle?
+        </p>
+        <label class="quiz-form__ans" for="q41">
+          <input type="radio" name="q4" id="q41" value="A"  />
+          <span class="design"></span>
+          <span class="text">9%</span>
+        </label>
+        <label class="quiz-form__ans" for="q42">
+          <input type="radio" name="q4" id="q42" value="B" />
+          <span class="design"></span>
+          <span class="text">35%</span>
+        </label>
+        <label class="quiz-form__ans" for="q43">
+          <input type="radio" name="q4" id="q43" value="C" />
+          <span class="design"></span>
+          <span class="text">50%</span>
+        </label>
+        <label class="quiz-form__ans" for="q44">
+          <input type="radio" name="q4" id="q44" value="D" />
+          <span class="design"></span>
+          <span class="text">75%</span>
+        </label>
+		
+<a class="submit"  name="next">Go Next ></a>
+<a class="submit"  name="prev">< Go Previous</a>
+      </div>
+
+      <div class="quiz-form__quiz">
+		<div class="quiz__heading">
+		  <h2 class="quiz__heading-text">
+			Your Total Score <span class="result"></span> .
+		  </h2>
+		  <h3 class="form-errors" style="color: red;margin-bottom:20px"></h3>
+		</div>
+        <p class="quiz-form__question">
+          5. Which of these countries have NOT made national plastic bag
+          regulations?
+        </p>
+        <label class="quiz-form__ans" for="q51">
+          <input type="radio" name="q5" id="q51" value="A"  />
+          <span class="design"></span>
+          <span class="text">Kenya</span>
+        </label>
+        <label class="quiz-form__ans" for="q52">
+          <input type="radio" name="q5" id="q52" value="B" />
+          <span class="design"></span>
+          <span class="text">USA</span>
+        </label>
+        <label class="quiz-form__ans" for="q53">
+          <input type="radio" name="q5" id="q53" value="C" />
+          <span class="design"></span>
+          <span class="text">Rwanda</span>
+        </label>
+        <label class="quiz-form__ans" for="q54">
+          <input type="radio" name="q5" id="q54" value="D" />
+          <span class="design"></span>
+          <span class="text">China</span>
+        </label>
+		
+		<input class="submit" type="submit" value="Submit" />
+		<a class="submit"  name="prev">< Go Previous</a>
+      </div>
+
+
+      
+	  </div>
+    </form>
+	
+  </div>
+</div>
+
+
+   <script src="jquery.min.js"></script> 
+      <script src="jquery.validate.min.js"></script>
+  <script  src="./script.js"></script>
+<script>
+
+
+	$(document).ready(function() {
+
+    var divs = $('#quiz-form-one>div');
+    var now = 0; 
+    divs.hide().first().show();
+    $("a[name=next]").click(function (e) {
+        divs.eq(now).hide();
+        now = (now + 1 < divs.length) ? now + 1 : 0;
+        divs.eq(now).show(); 
+		console.log(divs.length, now);
+    });
+    $("a[name=prev]").click(function (e) {
+        divs.eq(now).hide();
+        now = (now > 0) ? now - 1 : divs.length - 1;
+        divs.eq(now).show(); 
+        console.log(divs.length, now);
+    });
+
+	
+/*	var $radios = $('input:radio');
+
+$radios.change(function () {
+  $radios.parent().removeClass('label_checked');
+  $(this).parent().addClass('label_checked');
+});
+
+$radios.filter(':checked').parent().addClass('label_checked');*/
+
+
+		$(".quiz-form").validate({
+		ignore: ".ignore",
+            showErrors: function (errorMap, errorList) {
+               $(".form-errors").html("All fields must be completed before you submit the form.");
+            }
+		});
+		
+		if ($(".quiz-form").valid()) {
+		  form.style.opacity = "0.7";
+  form.style.pointerEvents = "none";
+  $(".form-errors").hide();
+                 $(".form-errors").html("");
+
+		}
+		
+
+	});
+
+</script>
+</body>
+</html>
